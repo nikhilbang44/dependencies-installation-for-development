@@ -52,7 +52,7 @@
 	14. sudo service apache2 restart
 	15. sudo nano /etc/apache2/apache2.conf
 	16. Add the following line at the end. Include /etc/phpmyadmin/apache.conf
-# Install Ruby with RVM
+# Ruby with RVM
 	1. sudo apt-get update
 	2. sudo apt-get install curl
 	3. \curl -L https://get.rvm.io | bash -s stable --ruby
@@ -62,5 +62,25 @@
 	7. rvm use ruby --default
 	8. rvm rubygems current
 	9. gem install rails
-
- 
+# JAVA
+	1. sudo apt-get update
+	2. sudo apt-get install default-jre
+	3. sudo apt-get install default-jdk
+# DBeaver
+	1. sudo apt-get -f install
+	2. sudo apt-get update
+	3. wget http://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb
+	4. sudo dpkg -i dbeaver-ce_latest_amd64.deb
+	5. sudo apt-get -f install
+# Redis
+	1. sudo apt-get update
+	2. sudo apt-get install build-essential
+	3. sudo apt-get install tcl8.5
+	4. wget http://download.redis.io/releases/redis-stable.tar.gz
+	5. tar xzf redis-stable.tar.gz
+	6. cd redis-stable
+	7. make
+	8. make test
+	9. sudo make install
+	10. cd utils
+	11. sudo ./install_server.sh
