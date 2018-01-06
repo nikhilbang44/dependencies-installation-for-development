@@ -18,7 +18,7 @@
     	echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 	3. sudo apt-get update    
 	4. sudo apt-get install -y mongodb-orsudo apt-get update
-g
+
 # Install Git on Linux
 	1. sudo apt-get update
 	2. sudo apt-get install git
