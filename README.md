@@ -62,6 +62,7 @@
 	7. rvm use ruby --default
 	8. rvm rubygems current
 	9. gem install rails
+	10. sudo apt-get install ruby-dev
 # JAVA
 	1. sudo apt-get update
 	2. sudo apt-get install default-jre
